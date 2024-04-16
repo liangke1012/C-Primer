@@ -13,7 +13,7 @@ int main()
 
     cout << name << " please enter up to " << ArSize
          << " short sayings <empty line to quit>:\n";
-    String sayings[MaxLen];
+    String sayings[ArSize];
     char temp[MaxLen];
     int i;
     for (i = 0; i < ArSize; i++)
