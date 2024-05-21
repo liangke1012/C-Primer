@@ -20,6 +20,9 @@
                 }
             ],
             "preLaunchTask": "g++ build active file",
+            "sourceFileMap": {
+                "/<path_to_helper_file>": "${workspaceFolder}/workermi.cpp" // 如果有头文件映射，也可以在这里配置
+            },
             "miDebuggerPath": "C:\\mingw64\\bin\\gdb.exe" // 修改为你的GDB路径
         }
     ]
